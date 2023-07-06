@@ -1,8 +1,8 @@
-import {ACCOUNTS, processTransactions, summarizeTransactions} from '../src/account';
+import {ACCOUNTS, processTransactions, summarizeAccounts} from '../src/account';
 import {test, expect, afterEach} from 'vitest';
 
 afterEach(() => {
-    summarizeTransactions();
+    summarizeAccounts();
     ACCOUNTS.clear();
 });
 

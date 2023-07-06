@@ -180,7 +180,7 @@ export const processTransactions = (
   });  
 };
 
-export const summarizeTransactions = () => {
+export const summarizeAccounts = () => {
   const reporter = new ReportProcessor();
   [...ACCOUNTS.entries()]
     .sort((a, b) => { 
