@@ -11,3 +11,9 @@
 # test
 
 1. run `npx vitest --ui`
+
+# grid/flex css layout
+1. see `index.html` and `style.css` for detail
+1. to layout a div like this.
+   ![layout image](layout_with_grid_or_flex.png)
+

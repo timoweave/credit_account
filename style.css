@@ -1,0 +1,31 @@
+body {
+    width: 100%;
+    margin: 0px;
+}
+
+.color {
+    width: 15vw;
+    height: 30vh;
+}
+
+.page {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.spread-out {
+    display: flex;
+    direction: row;
+    justify-content: space-evenly;
+}
+
+.top {
+    align-items: flex-start;
+}
+
+.bottom {
+    align-items: flex-end;
+}
